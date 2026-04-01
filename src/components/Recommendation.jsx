@@ -1,4 +1,4 @@
-import useRecipe from "../../hooks/useRecipe";
+import useRecipe from "../hooks/useRecipe";
 import ReactMarkdown from "react-markdown";
 
 function Recommendation() {

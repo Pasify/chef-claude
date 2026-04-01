@@ -1,7 +1,7 @@
 import { useState } from "react";
 import IngredientLIst from "./IngredientLIst";
 import Recommendation from "./Recommendation";
-import useRecipe from "../../hooks/useRecipe";
+import useRecipe from "../hooks/useRecipe";
 
 function Main() {
   let ingredients = [];

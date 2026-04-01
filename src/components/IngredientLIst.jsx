@@ -1,13 +1,12 @@
-import useRecipeGenerator from "../../hooks/UseRecipeGenerator";
+import useRecipeGenerator from "../hooks/UseRecipeGenerator";
 
 function IngredientLIst({ ingredients, toggleRecipeVisibility }) {
-  const { generateRecipe, isPending} = useRecipeGenerator();
+  const { generateRecipe, isPending } = useRecipeGenerator();
   function getRecipe(ingredients) {
     console.log("Fetching recipe for:", ingredients);
     generateRecipe(ingredients);
   }
- 
-  
+
   return (
     <section className="ingredient-list-section">
       <h2>Ingredients on hand:</h2>
