@@ -1,5 +1,5 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import getRecipeFromHuggingFace from "../../utilities/huggingFace";
+import getRecipeFromHuggingFace from "../utilities/huggingFace";
 
 function useRecipeGenerator() {
   const queryClient = useQueryClient();
