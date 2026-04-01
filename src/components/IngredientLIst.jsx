@@ -1,4 +1,4 @@
-import useRecipeGenerator from "../hooks/UseRecipeGenerator";
+import useRecipeGenerator from "../hooks/useRecipeGenerator";
 
 function IngredientLIst({ ingredients, toggleRecipeVisibility }) {
   const { generateRecipe, isPending } = useRecipeGenerator();
